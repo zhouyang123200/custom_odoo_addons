@@ -1,0 +1,38 @@
+{
+    // User Settings
+
+    "editor.fontSize": 14,
+    "editor.lineHeight": 15,
+    // "editor.formatOnSave": true, // 存档时，是否格式化
+    "python.pythonPath": "/home/zhouyang/anaconda3/envs/odoo-14/bin/python", // 选择指定的python解释器
+    // "python.venvPath": "/home/zhouyang/anaconda3/envs",
+    "python.terminal.activateEnvironment": true, // 自动启动虚拟环境
+
+    // python代码检查和格式化工具配
+    "python.linting.pylintPath": "/home/zhouyang/anaconda3/envs/odoo-14/bin/pylint", // 指定pylint
+    "python.linting.pylintEnabled": true,  // 需要安装pylint
+    "python.linting.enabled": true,  // 需要
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.vscode/.pylintrc"
+    ],
+    "python.analysis.extraPaths": ["/home/zhouyang/Documents/odoo143-8"],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/home/zhouyang/anaconda3/envs/jieda/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length", "80"
+    ],
+
+    "files.encoding": "utf8", // 指定字符编码
+    "files.trimTrailingWhitespace": true, // 保存时，会删除每行后面多余的空格
+    "files.autoGuessEncoding": false, // 是否猜测文件编码
+    //"terminal.integrated.shell.linux": "/usr/bin/bash", // 选择指定shell
+    "workbench.startupEditor": "newUntitledFile",
+    // 不需要显示的文件
+    "files.exclude": {
+	    "**/*.pyc": true,
+      "**/__pycache__": true
+     },
+
+    // "workbench.colorTheme": "One Dark Pro", // 选择颜色主题，需要去安装颜色主题插件
+    // "workbench.iconTheme": "vscode-icons",  // 选择图标主题，需要去安装图标主题插件
+   }
