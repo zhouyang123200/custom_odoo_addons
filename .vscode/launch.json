@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "devolop env",
+            "type": "python",
+            "request": "launch",
+            "python": "${config:python.defaultInterpreterPath}",
+            "cwd": "/home/zhouyang/Documents/odoo/odoo-14.0/", // 进入src目录
+            "program": "odoo-bin", // 执行run.py文件
+            "args": [
+                "-c", "/home/zhouyang/Documents/odoo/custom_odoo_addons/.vscode/odoo.conf"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "GEVENT_SUPPORT": "True"
+            }
+        }
+    ]
+}

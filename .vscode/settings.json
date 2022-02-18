@@ -4,8 +4,7 @@
     "editor.fontSize": 14,
     "editor.lineHeight": 15,
     // "editor.formatOnSave": true, // 存档时，是否格式化
-    "python.pythonPath": "/home/zhouyang/anaconda3/envs/odoo-14/bin/python", // 选择指定的python解释器
-    // "python.venvPath": "/home/zhouyang/anaconda3/envs",
+    "python.defaultInterpreterPath": "/home/zhouyang/anaconda3/envs/odoo-14/bin/python",
     "python.terminal.activateEnvironment": true, // 自动启动虚拟环境
 
     // python代码检查和格式化工具配
