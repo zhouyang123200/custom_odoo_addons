@@ -12,7 +12,8 @@
             "cwd": "/home/zhouyang/Documents/odoo/odoo-14.0/", // 进入src目录
             "program": "odoo-bin", // 执行run.py文件
             "args": [
-                "-c", "/home/zhouyang/Documents/odoo/custom_odoo_addons/.vscode/odoo.conf"
+                "-c", "/home/zhouyang/Documents/odoo/custom_odoo_addons/.vscode/odoo.conf",
+                "--dev=xml"
             ],
             "console": "integratedTerminal",
             "env": {

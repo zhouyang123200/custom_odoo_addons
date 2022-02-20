@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+
+       <template id="assets_backend" inherit_id="web.assets_backend">
+           <xpath expr="." position="inside">
+                <script type="text/javascript" src="/text_diff/static/src/js/diff.js"/>
+                <script type="text/javascript" src="/text_diff/static/src/js/text_diff.js"/>
+           </xpath>
+       </template>
+
+
+    </data>
+
+
+</odoo>
